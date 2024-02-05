@@ -1,0 +1,83 @@
+body
+{
+    height: 100%;
+    font-family:"Lato", sans-serif;
+    margin: 0;
+    color: rgb(0, 0, 0);
+    line-height: 1.8em;
+    font-weight: 400;
+}
+
+.pimg1, .pimg2, .pimg3
+{
+    opacity: 0.70;
+    position: relative;
+    background-attachment:fixed ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+
+}
+
+.pimg1
+{    
+    min-height: 1000px;
+    background-image: url(https://images.adsttc.com/media/images/6557/c9f3/08e4/447a/cca6/8440/slideshow/dia-mundial-da-televisao-narrativas-televisivas-que-constroem-imaginarios-urbanos_6.jpg?1700252182);
+}
+.pimg2
+{
+    min-height: 400px;
+    background-image: url(https://praondevaisaopaulo.com.br/wp-content/uploads/2019/07/cidades-inteligentes-web-2.jpg);
+}
+
+.pimg3
+{
+    min-height: 400px;
+    background-image: url(https://www3.al.sp.gov.br/repositorio/noticia/N-01-2020/fg246500.jpg) ;
+}
+
+
+.ptext
+{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25%;
+    font-size: 2vw;
+    letter-spacing: 8px;
+    background-color: transparent;
+}
+
+.borda, .borda-tittle
+{
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+.sectext1, .sectext2, .sectext3
+{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.sectext1, .sectext3
+{
+    background-color:#282e34 ;
+    color: #ddd;
+}
+
+
+@media (max-width: 580px)
+{
+    .borda-tittle
+    {
+        padding: 3.96vw;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .borda-tittle
+    {
+        padding: 19px;
+    }
+}
